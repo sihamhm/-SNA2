@@ -1,9 +1,12 @@
 # SNA2 - final project
 Siham Hachem and Tamara Diaz K
 # Introduction
-...
+Hollywood stands as the biggest place for aspiring individuals seeking fame and networking opportunities. The allure lies in the perceived interconnectedness, where once inside, everyone seems to know everyone, fostering the potential for influential connections, particularly through participation in Hollywood productions. Yet, the extent of this networking advantage remains uncertain, leaving one to wonder about the magnitude of its social web expansion.
 
-...
+
+This project delves into the intricacies of Hollywood connections to investigate whether a movie's popularity correlates with the number of connections gained by its actors. By investigating pre- and post-movie social networks of two A-list and two C-list celebrities, compared against the film's popularity, the investigation takes shape. Comparisons include participation frequency, network size, and influence, enhanced by their impact on the media.
+
+The objective is to determine the significance of both movie popularity and actor status on social network dynamics, offering insights into the symbiotic relationship between Hollywood success and interpersonal connections via social networks.
 ## Hypotheses
 The hypotheses is that: The more an actor have played in movies, the more he has his social network is important. 
 
