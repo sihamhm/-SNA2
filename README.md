@@ -22,3 +22,10 @@ We used the film industry dataset made by IMDB, the Internet Movie Databased ( p
 In order to analyse and test our hypothesis, we decided to use Google Collab in Phython. In order to find the two actors that have played in the most movies and the two actors that have played in the least movies. When we were able to extract these informations we generated a social network graph through the use of Sigma. We set the four found actors as nodes and each movies as edges, so we would be able to see how famous and not so famous actors are connected. 
 
 After doing so, we have to get the betweenness centrality which is the number of times a node is included in the shortests path between other nodes in a social network. Then, the degree centrality which would explain how well connected a node is in the network, by measuring the ratio of edgesconnected to a node to the total number of edges. We also studied the clustering coefficient which measure of the grouping of nodes in a network. 
+
+## Data and code
+Here is the link to our Google Collab: 
+
+## Results and Analysis
+
+## Concludion
