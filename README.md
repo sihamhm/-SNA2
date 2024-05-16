@@ -1,5 +1,5 @@
 # SNA2 - final project
-Siham Hachem and ...
+Siham Hachem and Tamara Diaz K
 # Introduction
 ...
 
@@ -28,4 +28,4 @@ Here is the link to our Google Collab:
 
 ## Results and Analysis
 
-## Concludion
+## Conclusion
