@@ -16,7 +16,7 @@ We used the film industry dataset made by IMDB, the Internet Movie Databased ( p
 
 - The dataset includes 1000 nodes.
 
-- Accross a period of time approximativly from 2010 to 2020.
+- Accross a period of time approximativly from 1921 to 2020.
 
 - Each nodes represent an actor.
 
