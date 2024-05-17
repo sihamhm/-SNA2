@@ -73,7 +73,11 @@ The graph that we obtained shows an overload of edges and nodes in the social ne
 
 * actors' betweenness centrality
 
-  
+Betweenness centrality is used in network analysis to determine the importance of a node within a network. Let’s take the example of a city map with various intersections (nodes) and roads (edges) connecting them. Betweenness centrality identifies the intersections that most frequently serve as shortcuts or bridges for the shortest paths between other intersections. These intersections are crucial because they connect different parts of the city efficiently.
+
+Contrary to degree centrality, which identifies the most connected nods in a networks, betweenness centrality helps to identify which nods (or actors in our case) are the most important to facilitate a seamless transfer of information among the different 
+
+Here we can see that Dave Patel (0.066) despite being among the actors who played in the least number of movies and therefore ranking low in degree centrality he ranks the highest in betweenness centrality. This means that if Dave Patel were to be removed from our network, the flow of information would be less efficient, since some nodes would be isolated from the rest of the network.
 
 ## Degree Centrality
 
@@ -88,5 +92,7 @@ In this context, the degree centrality of an actor in our social network is high
 This result makes sense, as it can be argued that the higher the number of movies an actor appears in, the more likely they are to be exposed to more people and connections than actors who have appeared in fewer movies. This increased exposure allows them to expand their centrality within the social network.
 
 ## Results
+
+When we look at the graphs, one can argue that there is a high corrolation between the number of movies an actor played in and their degree centrality (ei: they are the nodes with the most connections in the network). However, degree centrality is also impacted by the betweenness centrality of the network. Betweenness centrality helps identify how efficiently informations move within the network. Betweenness centrality is not realated with the number of movies an actor play in. Indeed, here we can see it with the example of Dave Patel above mentioned. 
 
 ## Conclusion
