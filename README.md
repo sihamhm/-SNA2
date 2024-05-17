@@ -48,6 +48,8 @@ As we can see, Robert De Niro has played in 17 different movies, Tom Hanks in 14
 
 DO THE OPPOSITE
 
+## Actors social network
+
 In the third graph, we can see the actor's social network. This graph includes all the actors and all the movies mention in the dataset. We need to remember that the nodes (blues dots) are the actors and the edges (black lines) are the links, illustarting the movies, in which each actor played in. If we keep in mind that, if two actors played in the same movie than other actors once, it means that their co-stars are now part of their social networks. In other words, the edges creates connection between actors, which expend their social network. 
 
 <img width="1201" alt="Screenshot 2024-05-17 at 3 02 00 AM" src="https://github.com/sihamhm/-SNA2/assets/167986363/d8b76c42-ee54-4032-b5bf-b8a5ffbaf6f9">
