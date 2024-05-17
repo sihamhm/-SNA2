@@ -58,7 +58,7 @@ Then, when we change the entry .orderBy("count", ascending=False) to .orderBy("c
 
 As we can see, all of the five actors have played in only one movie each. If we follow the hypothesis, they should be the people that are the less connected to others and who has the least dense social network. However, their importance in the network should not be understated, since removing them from the network may have consequences, or make a really big impact on the current social networks. 
 
-## We would like to mention the fact that we were not able to find the diameter of this social network, the software kept posting "error". 
+- We would like to mention the fact that we were not able to find the diameter of this social network, the software kept posting "error". 
 
 
 ## Actors' social network
