@@ -20,7 +20,13 @@ We used the film industry dataset made by IMDB, the Internet Movie Databased ( p
 
 - Each node represents an actor.
 
-- Each edge represents the actor's connections with one another. 
+- Each edge represents the actor's connections with one another.
+
+As we can see in the Google collab work, the first figure is us charging the entire dataset, but asking the software to only show five loadings, without deleting them, just masking them so it would be easier to work on it. 
+
+In the second figure, we did a "subset", in other words, we removed the columbs that we did't needed and asked to only show the important variables for our study meaning: The movies title and the actors. 
+
+We were then able to start our analysis. 
 
 In order to analyse and test our hypothesis, we decided to use Google Collab in Phython. In order to find the two actors that have played in the most movies and the two actors that have played in the least movies. When we were able to extract these informations we generated a social network graph through the use of Sigma. We set the four found actors as nodes and each movies as edges, so we would be able to see how famous and not so famous actors are connected. 
 
