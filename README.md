@@ -42,9 +42,19 @@ Firstly, we felt like it was important to decide which actors had played in the 
 
 <img width="219" alt="Screenshot 2024-05-17 at 2 52 28 AM" src="https://github.com/sihamhm/-SNA2/assets/167986363/f4b4db24-9011-495f-84a2-ab9dd2783b75">
 
-actors that have played in the most movies. 
+* actors that have played in the most movies. 
 
 As we can see, Robert De Niro has played in 17 different movies, Tom Hanks in 14, Al Pacino has played in 13 movies that were listed, Clint Eastwood and Brad Pitt have played both played in 12 movies. In other words, if we follow our hypothesis, Robert De Niro should be the actor that is the most connected in Hollywood, since he has played in the most movies. 
+
+DO THE OPPOSITE
+
+In the third graph, we can see the actor's social network. This graph includes all the actors and all the movies mention in the dataset. We need to remember that the nodes (blues dots) are the actors and the edges (black lines) are the links, illustarting the movies, in which each actor played in. If we keep in mind that, if two actors played in the same movie than other actors once, it means that their co-stars are now part of their social networks. In other words, the edges creates connection between actors, which expend their social network. 
+
+<img width="1201" alt="Screenshot 2024-05-17 at 3 02 00 AM" src="https://github.com/sihamhm/-SNA2/assets/167986363/d8b76c42-ee54-4032-b5bf-b8a5ffbaf6f9">
+
+* actors social network
+
+
 
 
 
