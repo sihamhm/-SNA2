@@ -91,8 +91,8 @@ In this context, the degree centrality of an actor in our social network is high
 
 This result makes sense, as it can be argued that the higher the number of movies an actor appears in, the more likely they are to be exposed to more people and connections than actors who have appeared in fewer movies. This increased exposure allows them to expand their centrality within the social network.
 
-## Results
+## Conclusion
 
 When we look at the graphs, one can argue that there is a high corrolation between the number of movies an actor played in and their degree centrality (ei: they are the nodes with the most connections in the network). However, degree centrality is also impacted by the betweenness centrality of the network. Betweenness centrality helps identify how efficiently informations move within the network. Betweenness centrality is not realated with the number of movies an actor play in. Indeed, here we can see it with the example of Dave Patel above mentioned. 
 
-## Conclusion
+
