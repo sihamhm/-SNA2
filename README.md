@@ -40,6 +40,12 @@ With the help of the graphs we made, we are now able to have get a better unders
 
 Firstly, we felt like it was important to decide which actors had played in the most and least movies, to then do the analysis. 
 
+<img width="219" alt="Screenshot 2024-05-17 at 2 52 28 AM" src="https://github.com/sihamhm/-SNA2/assets/167986363/f4b4db24-9011-495f-84a2-ab9dd2783b75">
+
+actors that have played in the most movies. 
+
+As we can see, Robert De Niro has played in 17 different movies, Tom Hanks in 14, Al Pacino has played in 13 movies that were listed, Clint Eastwood and Brad Pitt have played both played in 12 movies. In other words, if we follow our hypothesis, Robert De Niro should be the actor that is the most connected in Hollywood, since he has played in the most movies. 
+
 
 
 ## Conclusion
