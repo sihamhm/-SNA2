@@ -35,7 +35,7 @@ After doing so, we will have to find the diameter of the social network and then
 ## Data and code
 Here is the link to our Google Collab: 
 
-## Analysis and Results
+## Analysis 
 With the help of the graphs we made, we are now able to have get a better understanding of the social network in the film industry. 
 
 Firstly, we felt like it was important to decide which actors had played in the most and least movies, to then do the analysis. 
@@ -87,6 +87,6 @@ In this context, the degree centrality of an actor in our social network is high
 
 This result makes sense, as it can be argued that the higher the number of movies an actor appears in, the more likely they are to be exposed to more people and connections than actors who have appeared in fewer movies. This increased exposure allows them to expand their centrality within the social network.
 
-
+## Results
 
 ## Conclusion
