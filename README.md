@@ -46,7 +46,13 @@ Firstly, we felt like it was important to decide which actors had played in the 
 
 As we can see, Robert De Niro has played in 17 different movies, Tom Hanks in 14, Al Pacino has played in 13 movies that were listed, Clint Eastwood and Brad Pitt have played both played in 12 movies. In other words, if we follow our hypothesis, Robert De Niro should be the actor that is the most connected in Hollywood, since he has played in the most movies. 
 
-DO THE OPPOSITE
+Then, when we change the entry .orderBy("count", ascending=False) to .orderBy("count", ascending=True), we are able to have the list of the 5 actors that have least played in movies. 
+
+<img width="228" alt="Screenshot 2024-05-17 at 3 22 10 AM" src="https://github.com/sihamhm/-SNA2/assets/167986363/ac1b592c-30c5-4b48-ab90-29ea0690d008">
+* actors that have played in the least movies. 
+
+As we can see, all of the five actors have played in only one movie each. If we follow the hypothesis, they should be the people that are the less connected to others and who has the less dense social network. 
+
 
 ## Actors social network
 
