@@ -36,6 +36,10 @@ After doing so, we have to get the betweenness centrality which is the number of
 Here is the link to our Google Collab: 
 
 ## Analysis and Results
-With the help of the graph we made, we are now able to have a better understanding of the social network in the film industry. 
+With the help of the graphs we made, we are now able to have get a better understanding of the social network in the film industry. 
+
+Firstly, we felt like it was important to decide which actors had played in the most and least movies, to then do the analysis. 
+
+
 
 ## Conclusion
