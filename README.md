@@ -33,7 +33,7 @@ In order to analyse and test our hypothesis, we decided to use Google Collab in 
 After doing so, we will have to find the diameter of the social network and then we have to get the betweenness centrality which is the number of times a node is included in the shortests path between other nodes in a social network and the degree centrality which would explain how well connected a node is in the network. 
 
 ## Data and code
-Here is the link to our Google Collab: 
+Here is the link to our Google Collab: https://colab.research.google.com/drive/1luYxRaw4dY_D-QhyaMWHdkGXo7Vkz8eM#scrollTo=XJ0cVikGmuTI
 
 ## Analysis 
 With the help of the graphs we made, we are now able to have get a better understanding of the social network in the film industry. 
