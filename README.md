@@ -8,9 +8,10 @@ This project delves into the intricacies of Hollywood connections to investigate
 
 The objective is to determine the significance of both movie popularity and actor status on social network dynamics, offering insights into the symbiotic relationship between Hollywood success and interpersonal connections via social networks.
 ## Hypotheses
-The hypotheses is that: The more an actor have played in movies, the more he has his social network is important. 
+The hypotheses is that: The more an actor have played in movies, the highest their number of connections will be. However, for information to flow seamlessly the network needs actors who have played in less movies and who have less connections. 
 
 When we think about film acotrs, we think about fame, success and mostly people well connected. For this reason, we wanted to study if the idea that playing in a lot of movies can help people increase their social network.
+
 ## Methodology
 We used the film industry dataset made by IMDB, the Internet Movie Databased ( provided by the teacher in class ) 
 
@@ -28,7 +29,7 @@ In the second figure, we did a "subset", in other words, we removed the columbs 
 
 We were then able to start our analysis. 
 
-In order to analyse and test our hypothesis, we decided to use Google Collab in Phython. In order to find the two actors that have played in the most movies and the two actors that have played in the least movies. When we were able to extract these informations we generated a social network graph through the use of Sigma. We set the four found actors as nodes and each movies as edges, so we would be able to see how famous and not so famous actors are connected. 
+In order to analyse and test our hypothesis, we decided to use Google Collab in Phython. In order to find the two actors that have played in the most movies and the two actors that have played in the least movies. When we were able to extract these informations we generated a social network graph. We set the four found actors as nodes and each movies as edges, so we would be able to see how famous and not so famous actors are connected. 
 
 After doing so, we will have to find the diameter of the social network and then we have to get the betweenness centrality which is the number of times a node is included in the shortests path between other nodes in a social network and the degree centrality which would explain how well connected a node is in the network. 
 
@@ -52,12 +53,12 @@ Then, when we change the entry .orderBy("count", ascending=False) to .orderBy("c
 
 * actors that have played in the least movies. 
 
-As we can see, all of the five actors have played in only one movie each. If we follow the hypothesis, they should be the people that are the less connected to others and who has the less dense social network. 
+As we can see, all of the five actors have played in only one movie each. If we follow the hypothesis, they should be the people that are the less connected to others and who has the less dense social network. However, there importance in the network should not be understated, since removing them from the network may have consequences. 
 
-We would like to mention the fact that we were not able to find the diameter of this social network, the software kept posting "error"
+## We would like to mention the fact that we were not able to find the diameter of this social network, the software kept posting "error"
 
 
-## Actors social network
+## Actors' social network
 
 In the third graph, we can see the actor's social network. This graph includes all the actors and all the movies mention in the dataset. We need to remember that the nodes (blues dots) are the actors and the edges (black lines) are the links, illustarting the movies, in which each actor played in. If we keep in mind that, if two actors played in the same movie than other actors once, it means that their co-stars are now part of their social networks. In other words, the edges creates connection between actors, which expend their social network. 
 
@@ -65,7 +66,7 @@ In the third graph, we can see the actor's social network. This graph includes a
 
 * actors' social network
 
-The graph that we obtained shows an overload of edges and nodes in the social network, so we are not able to clearly see the connection clearly. However, this tells us important things regarding this social network; it tells us that actors are really connected to one other. These connection are made on movie sets, by working with different actors and directors, the celebrities are able to expend their social network and be connected to everyone. In addition, that even if an actor only played in one movie, it has opened to him the opportunity to be connected to others and start building his own network. 
+The graph that we obtained shows an overload of edges and nodes in the social network, so we are not able to clearly see the connections. However, this tells us important things regarding this social network, since actors are really connected to one another. These connection are made on movie sets, by working with different actors and directors, the celebrities are able to expend their social network and be connected to everyone. In addition, that even if an actor only played in one movie, it has opened him the opportunity to be connected to others and start building his own network. 
 
 ## Betweenness Centrality 
 
@@ -93,6 +94,8 @@ This result makes sense, as it can be argued that the higher the number of movie
 
 ## Conclusion
 
-When we look at the graphs, one can argue that there is a high corrolation between the number of movies an actor played in and their degree centrality (ei: they are the nodes with the most connections in the network). However, degree centrality is also impacted by the betweenness centrality of the network. Betweenness centrality helps identify how efficiently informations move within the network. Betweenness centrality is not realated with the number of movies an actor play in. Indeed, here we can see it with the example of Dave Patel above mentioned. 
+When we look at the graphs, one can argue that there is a high corrolation between the number of movies an actor played in and their degree centrality; they are the nodes with the most connections in the network. However, degree centrality is also impacted by the betweenness centrality of the network. Betweenness centrality helps identify how efficiently informations move within the network. Betweenness centrality is not realated with the number of movies an actor played in. The example of Dave Patel perfectly illustrate this scenario. Dave Patel is not among the actors who have the highest degree centrality since he is not among the actor who played in the most  movies. However, his high level of betweenness centrality shows that without him other nodes would be isolated from the rest of the network. Therefore, the flow of information would be less efficient. 
+
+
 
 
