@@ -10,7 +10,7 @@ This project delves into the intricacies of Hollywood connections to investigate
 
 The objective is to determine the significance of both movie popularity and actor status on social network dynamics, offering insights into the symbiotic relationship between Hollywood success and interpersonal connections via social networks.
 
-## Hypotheses
+## Hypothesis
 The hypothesis is that: The more an actor has played in movies, the greater the size of their social network will be. However, for information to flow seamlessly the network needs actors who have played in less movies and who have less connections.
 
 When thinking about film actors, fame, success and mostly well connected people come to mind. For this reason, we wanted to study the idea that playing in a lot of movies can help people increase the size and range of their social network.
